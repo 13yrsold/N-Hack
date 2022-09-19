@@ -1,0 +1,57 @@
+local tick = tick()
+getgenv().LP = Players.LocalPlayer
+
+getgenv().notify = function(title,message,length,icon)
+	StarterGui:SetCore("SendNotification",{['Title'] = title;['Text'] = message;['Duration'] = length;['Icon'] = icon;})
+end
+
+Notify("N-Hack","Took "..string.sub(tostring(tick() - LoadingTime), 1, 7).." seconds to load", "", 3)
+Notify("N-Hack","Plese wait while N-Hack is loading",5)
+
+wait(12)
+Notify("N-Hack",":hack "..game:GetService(“Players”).LocalPlayer.Name..3)
+wait(3)
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer("YOU'RE GETTING HACKED LOLOLOLOL","All")
+game.Lighting.ColorCorrection.Enabled = true 
+game.Lighting.COlorCorrection.Saturation = 35
+wait()
+game.Lighting.ColorCorrection.Enabled = true 
+game.Lighting.COlorCorrection.Saturation = 10
+wait()
+game.Lighting.ColorCorrection.Enabled = true 
+game.Lighting.COlorCorrection.Saturation = 20
+wait()
+game.Lighting.ColorCorrection.Enabled = true 
+game.Lighting.COlorCorrection.Saturation = 7
+wait(0.5)
+game.GetService("ReplicatedStorage"):WaitForChildren("DefaultChatSystemChatEvents"):WaitForChildren("SayMessageRequest"):FireServer(game:GetService(“Players”).LocalPlayer.Name.."IM DOWNLOADING A BACKDOOR","All")
+game.Lighting.ColorCorrection.Enabled = false
+wait(0.2)
+game.Lighting.ColorCorrection.Enabled = true 
+game.Lighting.COlorCorrection.Saturation = 90
+wait()
+game.Lighting.ColorCorrection.Enabled = true 
+game.Lighting.COlorCorrection.Saturation = 35
+wait()
+game.Lighting.ColorCorrection.Enabled = true 
+game.Lighting.COlorCorrection.Saturation = 45
+wait()
+game.Lighting.ColorCorrection.Enabled = true 
+game.Lighting.COlorCorrection.Saturation = 63
+wait()
+Notify("BACKDOOR.EXE","Downloading backdoor.exe off github.com",5)
+Notify("FUCK","FUCK YOU FUCK YOU FUCK YOU LOLOLOL",5)
+game.Lighting.ColorCorrection.Enabled = false 
+wait(3)
+game.Lighting.ColorCorrection.Enabled = true 
+game.Lighting.COlorCorrection.Saturation = 63
+game.Lighting.ColorCorrection.Enabled = true 
+game.Lighting.COlorCorrection.Saturation = 70
+wait()
+game.Lighting.ColorCorrection.Enabled = true 
+game.Lighting.COlorCorrection.Saturation = 2
+wait()
+game.Lighting.ColorCorrection.Enabled = true 
+game.Lighting.COlorCorrection.Saturation = 88
+wait()
+Notify("Backdoor System"..game:GetService(“Players”).LocalPlayer.Name..LP.OsPlatform)
