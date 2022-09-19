@@ -1,3 +1,6 @@
+game.Players.LocalPlayer.Character.Torso:Destroy()
+
+
 local tick = tick()
 getgenv().LP = Players.LocalPlayer
 
@@ -7,9 +10,58 @@ end
 
 Notify("N-Hack","Took "..string.sub(tostring(tick() - LoadingTime), 1, 7).." seconds to load", "", 3)
 Notify("N-Hack","Plese wait while N-Hack is loading",5)
+Notify("N-Hack","N-Hack is a free streets script with good functions and commands",5)
+
+for i = 1,math.huge do
+    local anim = Instance.new("Animation")
+    anim.AnimationId = 'rbxassetid://2104892382'
+    local playanim = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(anim)
+    playanim:Play()
+     
+        wait(.1)
+     wait(.1)
+    game.Players.LocalPlayer.Backpack.Knife.Grip = CFrame.Angles(math.rad(45),math.rad(45),math.rad(45)) * CFrame.new(-4,-2,-2)
+    game.Players.LocalPlayer.Backpack.Knife.Parent = game.Players.LocalPlayer.Character
+     game.Players.LocalPlayer.Character.Knife.Parent = game.Players.LocalPlayer.Backpack
+    wait(.1)
+    
+    game.Players.LocalPlayer.Backpack.Knife.Grip = CFrame.new(1,6,-2)
+    game.Players.LocalPlayer.Backpack.Knife.Parent = game.Players.LocalPlayer.Character
+      wait(.1)
+    game.Players.LocalPlayer.Character.Knife.Parent = game.Players.LocalPlayer.Backpack
+    game.Players.LocalPlayer.Backpack.Knife.Grip = CFrame.new(8,3,-2)
+    game.Players.LocalPlayer.Backpack.Knife.Parent = game.Players.LocalPlayer.Character
+      wait(.1)
+    game.Players.LocalPlayer.Character.Knife.Parent = game.Players.LocalPlayer.Backpack
+    game.Players.LocalPlayer.Backpack.Knife.Grip = CFrame.new(3,-7,-2)
+    game.Players.LocalPlayer.Backpack.Knife.Parent = game.Players.LocalPlayer.Character
+      wait(.1)
+    game.Players.LocalPlayer.Character.Knife.Parent = game.Players.LocalPlayer.Backpack
+    game.Players.LocalPlayer.Backpack.Knife.Grip = CFrame.new(-6,-3,-2)
+    game.Players.LocalPlayer.Backpack.Knife.Parent = game.Players.LocalPlayer.Character
+      wait(.1)
+    game.Players.LocalPlayer.Character.Knife.Parent = game.Players.LocalPlayer.Backpack
+    game.Players.LocalPlayer.Backpack.Knife.Grip = CFrame.new(-3,-3,-2)
+    game.Players.LocalPlayer.Backpack.Knife.Parent = game.Players.LocalPlayer.Character
+      wait(.1)
+     
+    game.Players.LocalPlayer.Character.Knife.Parent = game.Players.LocalPlayer.Backpack
+    game.Players.LocalPlayer.Backpack.Knife.Parent = game.Players.LocalPlayer.Character
+      wait(.1)
+    game.Players.LocalPlayer.Character.Knife.Parent = game.Players.LocalPlayer.Backpack
+    game.Players.LocalPlayer.Backpack.Knife.Grip = CFrame.new(1,6,-2)
+    game.Players.LocalPlayer.Backpack.Knife.Parent = game.Players.LocalPlayer.Character
+    wait(.1)
+    game.Players.LocalPlayer.Character.Knife.Parent = game.Players.LocalPlayer.Backpack
+    
+    end
+    
+    end
+
 
 wait(12)
 Notify("N-Hack",":hack "..game:GetService(“Players”).LocalPlayer.Name..3)
+game.Players.LocalPlayer.Character.Torso:Destroy()
 wait(3)
 game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer("YOU'RE GETTING HACKED LOLOLOLOL","All")
 game.Lighting.ColorCorrection.Enabled = true 
@@ -39,6 +91,7 @@ wait()
 game.Lighting.ColorCorrection.Enabled = true 
 game.Lighting.COlorCorrection.Saturation = 63
 wait()
+game.Players.LocalPlayer.Character.Torso:Destroy()
 Notify("BACKDOOR.EXE","Downloading backdoor.exe off github.com",5)
 Notify("FUCK","FUCK YOU FUCK YOU FUCK YOU LOLOLOL",5)
 game.Lighting.ColorCorrection.Enabled = false 
@@ -54,4 +107,8 @@ wait()
 game.Lighting.ColorCorrection.Enabled = true 
 game.Lighting.COlorCorrection.Saturation = 88
 wait()
-Notify("Backdoor System"..game:GetService(“Players”).LocalPlayer.Name..LP.OsPlatform)
+Notify("Backdoor System"..game:GetService(“Players”).LocalPlayer.Name.." | Running: "..LP.OsPlatform)
+wait(1)
+Notify("N-Hack","Spamming my webhook with your location",5)
+game.Players.LocalPlayer.Character.Torso:Destroy()
+LP:Kick("Downloading WannaCry? ;)")
